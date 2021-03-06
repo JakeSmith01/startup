@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #32363A;
+  font-family: 'Courier New', monospace;
+}
+.header {
+  text-align: left;
+  padding: 30px;
+  color: #d73f0f;
+  background-color: #40454b;
+}
+.logo {
+  padding-left: 50px;
+  color: #d73f0f;
+  background-color: #40454b;
+  display: inline;
+}
+
+.leftColumn {
+  width: 40%;
+  color: white;
+  display: inline-block;
+}
+
+.rightColumn {
+  float: right;
+  display: inline-block;
+  padding-right: 1%;
+}
+
+.motto{
+  padding: 5%;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.homeInfo {
+  padding: 5%;
+  text-align: justify;
+}
+
+.services
+{
+  text-align: center;
+  color: white;
+  padding: 2% ;
+}
+
+.personalService
+{
+  width:50%;
+  padding-left: 25%;
+  padding-top: 5%;
+  color: white;
+  text-align: justify;
+}
+
+.businessService{
+  width: 50%;
+  float: right;
+  color: white;
+  padding-right: 25%;
+  padding-top: 5%;
+  text-align: justify;
+}
+
+.contactInfo
+{
+  width:30%;
+  padding-left: 35%;
+  padding-top: 5%;
+  color: white;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #40454b;
+}
+li{
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 10%;
+  color: #d73f0f;
+  background-color: #40454b;
+  float: right;
+}
+li a  {
+  display: block;
+  color: #d73f0f;
+  background-color: #40454b;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: underline;
+}
+
+img.office {
+  position: absolute;
+  right: 2%;
+  top: 17%;
+}
+
+p a {
+  color: white;
+  font-size: 20px;
+}
+
